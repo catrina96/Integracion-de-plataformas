@@ -1,0 +1,121 @@
+/* Fuente moderna y colores pastel */
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #fdfdfd;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Encabezado con gradiente */
+header {
+  background: linear-gradient(90deg, #ff6f91, #ff9671);
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+  letter-spacing: 1px;
+}
+
+/* Menú de navegación */
+nav {
+  margin-top: 0.5rem;
+}
+nav a {
+  margin: 0 1rem;
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: opacity 0.3s;
+}
+nav a:hover {
+  opacity: 0.8;
+}
+
+/* Sección principal */
+main {
+  padding: 2rem;
+  max-width: 900px;
+  margin: auto;
+}
+
+/* Hero llamativo */
+.hero {
+  background: #fff0f5;
+  padding: 2rem;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+.hero h2 {
+  color: #ff6f91;
+  margin-bottom: 1rem;
+}
+
+/* Formularios */
+form {
+  background: #ffffff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  max-width: 600px;
+  margin: auto;
+}
+form label {
+  display: block;
+  margin-top: 1rem;
+  font-weight: 500;
+}
+form input, form select {
+  width: 100%;
+  padding: 0.6rem;
+  margin-top: 0.3rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+button {
+  background: #ff6f91;
+  color: white;
+  border: none;
+  padding: 0.7rem 1.5rem;
+  margin-top: 1.5rem;
+  cursor: pointer;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: background 0.3s;
+}
+button:hover {
+  background: #ff3f6d;
+}
+
+/* Tablas */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 2rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+th {
+  background: #ff9671;
+  color: white;
+  padding: 0.8rem;
+}
+td {
+  border: 1px solid #eee;
+  padding: 0.8rem;
+  text-align: center;
+}
+
+/* Footer */
+footer {
+  background: #ff9671;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
